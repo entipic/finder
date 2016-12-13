@@ -4,7 +4,7 @@
   "description": "New name finder",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha -t 5000"
+    "test": "./node_modules/mocha/bin/mocha -t 30000"
   },
   "engines": {
     "node": ">=4.0.0"
