@@ -1,6 +1,6 @@
 'use strict';
 
-const assert = require('assert');
+// const assert = require('assert');
 const find = require('../lib/find');
 
 describe('find', function() {
@@ -18,7 +18,7 @@ describe('find', function() {
 		return find({ name: 'ministerul muncii', lang: 'ro', country: 'md', ip: '1212.232.23', host: '192.168.0.1' })
 			.catch(error => {
 				console.trace(error);
-			})
+			});
 	});
 
 	it('ro:ministerul muncii', function() {
