@@ -28,7 +28,7 @@
     "bluebird": "^3.4.6",
     "cheerio": "^0.22.0",
     "debug": "^2.3.3",
-    "entipic.data": "^0.1.4",
+    "entipic.data": "^0.1.5",
     "entipic.images": "^0.1.2",
     "entity-finder": "^0.2.3",
     "lodash": "^4.17.2",
