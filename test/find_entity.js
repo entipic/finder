@@ -10,12 +10,12 @@ describe('find entity', function() {
 				assert.equal('Adrian Ursu (jurnalist)', entity.name);
 			});
 	});
-	it('ro:ro:adrian ursu', function() {
-		return findEntity('adrian ursu', 'ro', 'ro')
-			.then((entity) => {
-				assert.equal('Adrian Ursu (jurnalist)', entity.name);
-			});
-	});
+	// it('ro:ro:adrian ursu', function() {
+	// 	return findEntity('adrian ursu', 'ro', 'ro')
+	// 		.then((entity) => {
+	// 			assert.equal('Adrian Ursu (jurnalist)', entity.name);
+	// 		});
+	// });
 	it('ro:md:adrian ursu', function() {
 		return findEntity('adrian ursu', 'ro', 'md')
 			.then((entity) => {

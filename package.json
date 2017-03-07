@@ -1,6 +1,6 @@
 {
   "name": "entipic.finder",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "New name finder",
   "main": "./lib/index.js",
   "scripts": {
@@ -32,6 +32,7 @@
     "entipic.images": "^0.1.2",
     "entity-finder": "^0.2.3",
     "lodash": "^4.17.2",
+    "name-comparer": "^0.1.1",
     "request": "^2.79.0"
   },
   "devDependencies": {
